@@ -1,4 +1,6 @@
-﻿int function(int x, int y)
+﻿// Напишите цикл, который принимает на вход два числа (A и B) и возводит число A в натуральную степень B.
+
+int function(int x, int y)
 {
     int result = 0;
     for (int count = 1; count < y; count++)
