@@ -1,11 +1,11 @@
 ﻿Console.Write("Укажите колличество элементов массива: ");
 int b = Convert.ToInt32(Console.ReadLine());
 
-int[] array = GetBinaryArray(b);
+int[] array = GetArray(b);
 Console.WriteLine($" [ {String.Join(" , ", array)} ] ");
 
 
-int[] GetBinaryArray(int size) // GetBinaryArray - это просто название функции
+int[] GetArray(int size)
 
 {
     int[] result = new int[size];
